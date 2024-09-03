@@ -8,7 +8,7 @@ public class CoinCounter
 
     public void CalculateCoins()
     {
-        System.out.println(cents + " cents");
+        System.out.println(cents + " cents:");
         int q = cents / 25;
         cents -= q * 25;
         int d = cents / 10;
@@ -23,7 +23,7 @@ public class CoinCounter
 
         System.out.println("Nickel(s) " + n);
 
-        System.out.println("Penny(s) " + p);
+        System.out.println("Penny(s) " + p + "\n\n");
 
     }
 }
